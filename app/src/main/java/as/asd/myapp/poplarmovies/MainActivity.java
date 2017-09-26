@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         GridView gridview = (GridView) findViewById(R.id.grid_films);
         gridview.setAdapter(new DataAdapter(this));
-        DataAdapter d=new DataAdapter(this);
+        //DataAdapter d=new DataAdapter(this);
        // Picasso.with(this).load(R.mipmap.ic_launcher).centerCrop().into();
 
     }
